@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Pixsys.Library.Mail.MailManager</id>
+    <title>Pixsys.Library.Mail.MailManager</title>
+    <description>This manager is using templates and content to create the html body on-the-fly. Language-specific content may be added on template and/or content level if needed.</description>
+    <authors>Sylvain Signore</authors>
+    <version>0.0.0.0</version>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/PixsysBE/Pixsys.Library.Mail.MailManager</projectUrl>
+    <dependencies>
+      <group targetFramework="net8.0">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\**\*.dll" target="lib" />
+    <file src="Docs\" target="Docs\" />
+    <file src="nuspec" target=".nuspec" /> 
+  </files>
+</package>
