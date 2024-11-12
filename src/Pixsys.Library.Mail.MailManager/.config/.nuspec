@@ -15,7 +15,7 @@
   </metadata>
   <files>
     <file src="bin\Release\**\*.dll" target="lib" />
-    <file src="Docs\" target="Docs\" />
+    <file src="bin\Release\**\*.xml" target="lib" />
     <file src="nuspec" target=".nuspec" /> 
   </files>
 </package>
