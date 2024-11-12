@@ -16,6 +16,6 @@
   <files>
     <file src="bin\Release\**\*.dll" target="lib" />
     <file src="bin\Release\**\*.xml" target="lib" />
-    <file src="nuspec" target=".nuspec" /> 
+    <file src="..\..\..\README.md" target="README.md" /> 
   </files>
 </package>
